@@ -1,0 +1,21 @@
+{
+  "name": "hiddenchat",
+  "version": "1.0.0",
+  "description": "Hidden Chat",
+  "main": "./bin/hiddenChat.js",
+  "bin": {
+    "hiddenchat": "./bin/hiddenChat.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "cuentas@alejandrodiego.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "~3.3.8",
+    "request": "^2.76.0",
+    "websocket": "^1.0.23"
+  }
+}
