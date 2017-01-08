@@ -4,7 +4,7 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
 
 Built with:
 
-  - <strong>Server side:</strong> Node.js, Websocket, and Express
+  - <strong>Server side:</strong> Node.js, Websocket and Express
   - <strong>Client side:</strong> 
 
 This is just a <strong>proof of concept</strong> of what could be done with these technologies.
