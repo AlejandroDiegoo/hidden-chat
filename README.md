@@ -16,19 +16,16 @@ Hidden Chat is a very simple chat room experiment using websocket and your **Chr
 
     git clone https://github.com/AlejandroDiegoo/hidden-chat.git
 
-### Run
-
-Fetch dependencies:
+### Fetch dependencies
 
     npm install
 
-Launch server:
+### Launch server
     
     node bin/hiddenChat.js --port 8000
 
-Open client:
+### Open client
 
     http://localhost:8000/
 
 Don't forget to open the browser console.
-
