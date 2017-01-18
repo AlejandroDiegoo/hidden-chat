@@ -5,7 +5,9 @@
 **Hidden Chat** is a very simple chat room experiment using websocket and your **Chrome Developer Console** (at the moment it is not optimized for other browsers) as chat client **while displaying in the browser any other site**. This is just a *proof of concept* of what could be done with the following technologies:
 
   - <strong>Server side:</strong> Node.js, Websocket and Express
-  - <strong>Client side:</strong> Backbone, Marionette and Underscore 
+  - <strong>Client side:</strong> Backbone, Marionette and Underscore
+  
+**Demo (only client):** https://codeluxestudio.com/github/hidden-chat/static
 
 ### Requires
 
