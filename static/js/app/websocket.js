@@ -94,30 +94,28 @@ define([
 
         setSource(response) {
 
-
-              var valor = '';
+            var source = '';
             $.each(response.message, function(key, value) {
-                valor += value;
+                source += source;
             });
-
 
             var iframe = document.getElementById('source');
             var iframeWindow = iframe.contentWindow;
             iframeWindow.console = console;
-
+            
+            // Prevents iframe error messages
             iframeWindow.onerror = function(message, url, lineNumber) {
-                    // code to execute on an error
-                    return true; // prevents browser error messages
-                };
-                window.onerror = function(message, url, lineNumber) {
-                        // code to execute on an error
-                        return true; // prevents browser error messages
-                    };
+                return true;
+            };
+            
+            // Prevents browser error messages
+            window.onerror = function(message, url, lineNumber) {
+                return true;
+            };
 
-            var bbbody = $('body',iframe.contentWindow.document);
-              bbbody.html(valor);
-
-
+            var iframeHtml = $('body', iframe.contentWindow.document);
+            iframeHtml.html(valor);
+            
         },
 
         close: function() {
