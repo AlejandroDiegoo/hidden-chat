@@ -29,7 +29,7 @@ require([
 
 	for (consoleFunction in console) {
 		if (consoleFunction != 'clear' && typeof console[consoleFunction] === 'function') {
-          console[consoleFunction] = function() {};
+			console[consoleFunction] = function() {};
 		}
 	}
 
