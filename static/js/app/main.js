@@ -2,14 +2,14 @@ requirejs.config({
 
     paths: {
 
-        domReady: '../vendor/domReady',
-        jquery: '../vendor/jquery-2.1.3.min',
+		domReady: '../vendor/domReady',
+		jquery: '../vendor/jquery-2.1.3.min',
 		underscore: '../vendor/underscore.min',
 		backbone: '../vendor/backbone.min',
 		marionette: '../vendor/backbone.marionette',
 		tpl: '../vendor/underscore.tpl',
 		text: '../vendor/text',
-        websocket: 'websocket'
+		websocket: 'websocket'
 
     }
 
