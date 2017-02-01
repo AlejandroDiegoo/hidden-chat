@@ -1,6 +1,6 @@
 requirejs.config({
 
-    paths: {
+	paths: {
 
 		domReady: '../vendor/domReady',
 		jquery: '../vendor/jquery-2.1.3.min',
@@ -11,7 +11,7 @@ requirejs.config({
 		text: '../vendor/text',
 		websocket: 'websocket'
 
-    }
+	}
 
 });
 
