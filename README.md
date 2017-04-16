@@ -1,4 +1,4 @@
-# hidden-chat
+# Hidden Chat
 
 ![alt tag](https://github.com/AlejandroDiegoo/hidden-chat/blob/master/static/assets/images/chat-example-02.png)
 
