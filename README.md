@@ -7,7 +7,7 @@
   - <strong>Server side:</strong> Node.js, Websocket and Express
   - <strong>Client side:</strong> Backbone, Marionette and Underscore
   
-**Demo (only client):** https://codeluxestudio.com/github/hidden-chat/static
+**Demo (only client):** https://alejandrodiego.com/github/hidden-chat/static
 
 ### Requires
 
